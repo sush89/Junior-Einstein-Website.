@@ -4,32 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Junior-Einstein-Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 0;
-            padding: 0;
-        }
-        .container {
-            padding: 20px;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            margin: 10px;
-            font-size: 16px;
-            color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 5px;
-            text-decoration: none;
-            cursor: pointer;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div class="container">
@@ -38,6 +13,8 @@
         <a href="index.html" class="button">Home</a>
         <a href="videos.html" class="button">Videos</a>
         <a href="audio.html" class="button">Audio Stories</a>
+        <a href="mailto:youremail@example.com" class="button">Email</a>
+        <a href="contact.html" class="button">Contact Us</a>
     </div>
 </body>
 </html>
